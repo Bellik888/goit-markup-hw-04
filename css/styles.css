@@ -196,11 +196,26 @@ header {
   margin-right: calc(-1 * var(--primary-margin));
 }
 .features-lists::before {
-  contain: "";
-  display: inline-flex;
-  width: 270px;
+  display: block;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  content: "";
   height: 120px;
-  border: 1px solid tomato;
+  background-color: var(--ourteam-bgc-color);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.features-lists:nth-child(1)::before {
+  background-image: url(../image/features/Group.svg);
+}
+.features-lists:nth-child(2)::before {
+  background-image: url(../image/features/clock\ 1.svg);
+}
+.features-lists:nth-child(3)::before {
+  background-image: url(../image/features/diagram\ 1.svg);
+}
+.features-lists:nth-child(4)::before {
+  background-image: url(../image/features/astronaut\ 1.svg);
 }
 .features-lists {
   flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
