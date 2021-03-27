@@ -318,7 +318,7 @@ header {
   padding-bottom: 16px;
   text-align: center;
 }
-.team .social {
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -383,9 +383,13 @@ header {
 /* footer */
 
 .footer {
+  display: flex;
   background-color: var(--footer-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer > .container {
+  display: flex;
 }
 .footer .logo {
   margin-right: 0;
@@ -395,6 +399,9 @@ header {
 }
 address {
   margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .adress {
   color: var(--white-color);
@@ -402,6 +409,9 @@ address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+}
+.address-footer {
+  margin-right: 70px;
 }
 .contacts-footer {
   display: flex;
@@ -423,6 +433,24 @@ address {
 .footer-lists > li:not(:last-child) {
   margin-bottom: 10px;
 }
+.come-us {
+  display: block;
+}
+.come-us-text {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+.come-us .link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 
 /* portfolio */
 
