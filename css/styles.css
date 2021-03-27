@@ -213,7 +213,7 @@ header {
   background-position: center;
 }
 .features-lists:nth-child(1)::before {
-  background-image: url(../image/features/group.svg);
+  background-image: url(../image/features/antenna.svg);
 }
 .features-lists:nth-child(2)::before {
   background-image: url(../image/features/clock.svg);
@@ -450,7 +450,6 @@ address {
 .come-us .link {
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 
 /* portfolio */
 
