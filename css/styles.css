@@ -302,6 +302,8 @@ header {
 .team-text {
   padding-top: var(--primary-margin);
   padding-bottom: var(--primary-margin);
+  padding-right: 32px;
+  padding-left: 32px;
 }
 .titles-team {
   color: var(--titles-text-color);
@@ -315,7 +317,7 @@ header {
 .team-text .text {
   font-size: 16px;
   line-height: 1.19;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   text-align: center;
 }
 .social {
@@ -390,6 +392,7 @@ header {
 }
 .footer > .container {
   display: flex;
+  align-items: baseline;
 }
 .footer .logo {
   margin-right: 0;
@@ -445,10 +448,12 @@ address {
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 20px;
-  margin-top: 12px;
 }
 .come-us .link {
   background-color: rgba(255, 255, 255, 0.1);
+}
+.come-us .icon-social {
+  fill: var(--white-color);
 }
 
 /* portfolio */
@@ -510,6 +515,10 @@ address {
 .portfolio-img a:hover,
 .portfolio-img a:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.portfolio-img a:hover .projects-type,
+.portfolio-img a:focus .projects-type {
+  color: var(--primary-text-color);
 }
 .portfolio-img > li:nth-child(n + 4) {
   margin-top: 30px;
