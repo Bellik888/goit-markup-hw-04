@@ -118,8 +118,16 @@ header {
   margin-left: 50px;
 }
 
-.active {
+.current {
   color: var(--active-color);
+}
+.current::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: var(--active-color);
 }
 .contacts {
   display: flex;
